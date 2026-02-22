@@ -3,7 +3,9 @@
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   width: 1100px;
-  padding: 135px 50px;
+  padding: 92px 51px 89px;
+  /* padding: 95px 50px; */
+  /* margin-top: 90px; */
 }
 
 .header-link-list {
@@ -12,7 +14,7 @@
   line-height: 100%;
   display: flex;
   list-style: circle;
-  gap: 35px;
+  gap: 32px;
 }
 
 .header-link-list-item {
@@ -48,7 +50,7 @@
 .cover {
   background-image: url("../images/cover.jpg");
   width: 1100px;
-  min-height: 757px;
+  height: 757px;
   color: white;
   background-position: center;
   background-size: cover;
@@ -68,7 +70,7 @@
 }
 
 .cover-title {
-  padding: 165px 50px 207px 50px;
+  padding: 165px 50px 50px 60px;
   color: #fff;
   font-size: 100px;
   font-style: normal;
@@ -108,7 +110,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 50px 50px 50px;
+  padding: 55px 50px 0 50px;
 }
 
 .text-description {
@@ -131,7 +133,7 @@
 }
 
 .lots {
-  padding: 180px 25px 0 25px;
+  padding: 193px 25px 0 25px;
 }
 
 .lots-title {
@@ -237,6 +239,7 @@
 
 .about-column {
   justify-self: center;
+  padding-top: 35px;
 }
 
 .about-column-text {
@@ -258,22 +261,20 @@
 }
 
 .about-title {
-  padding: 100px 0 104px;
+  padding: 143px 0 104px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 100%;
+  padding-top: 105px;
 }
 
-.about-text {
+.about-content {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
 }
 
 .about-text {
