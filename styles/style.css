@@ -265,7 +265,6 @@
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
 .about-content {
@@ -276,7 +275,6 @@
 
 .about-text {
   font-size: 20px;
-  line-height: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
