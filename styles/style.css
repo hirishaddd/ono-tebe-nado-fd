@@ -50,7 +50,7 @@
 .cover {
   background-image: url("../images/cover.jpg");
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
   color: white;
   background-position: center;
   background-size: cover;
@@ -65,7 +65,7 @@
   bottom: 0;
   right: 0;
   background-color: rgb(0, 0, 0);
-  z-index: 0;
+  z-index: 1;
   opacity: 0.6;
 }
 
@@ -80,7 +80,7 @@
   text-transform: uppercase;
   display: grid;
   grid-template-columns: (12, 1fr);
-  grid-template-rows: (12, 1fr);
+  grid-template-rows: (auto, 1fr);
   z-index: 1;
   align-content: center;
   position: relative;
@@ -155,15 +155,15 @@
   justify-content: space-between;
 }
 
-.item1 {
+.film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.item2 {
+.book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.item3 {
+.picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -177,12 +177,11 @@
   background-position: center;
   z-index: 0;
   width: 334px;
-  height: 600px;
+  min-height: 600px;
 }
 
 .card-content {
   padding: 48px 40px;
-  z-index: 1;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -190,6 +189,7 @@
 }
 
 .card-title {
+  z-index: 2;
   font-weight: 700;
   font-style: Bold;
   font-size: 22px;
@@ -201,6 +201,7 @@
 }
 
 .card-text {
+  z-index: 2;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
