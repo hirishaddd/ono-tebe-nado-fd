@@ -86,19 +86,19 @@
   position: relative;
 }
 
-.cover-title-item-ono {
+.cover-title-item-start {
   text-align: start;
   grid-column: 1/5;
   grid-row: 4/5;
 }
 
-.cover-title-item-tebe {
+.cover-title-item-midlle{
   text-align: center;
   grid-column: 6/10;
   grid-row: 5/6;
 }
 
-.cover-title-item-nado {
+.cover-title-item-end {
   text-align: end;
   grid-column: 9/13;
   grid-row: 7/8;
@@ -191,7 +191,6 @@
 .card-title {
   z-index: 2;
   font-weight: 700;
-  font-style: Bold;
   font-size: 22px;
   line-height: 120%;
   text-transform: uppercase;
